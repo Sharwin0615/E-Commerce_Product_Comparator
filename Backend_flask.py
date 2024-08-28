@@ -23,7 +23,7 @@ def get_products():
             title_string = ""
         return title_string
 
-# Function to get price from soup
+    # Function to get price from soup
     def get_price(soup):
         try:
             price_element = soup.find("span", attrs={'class': 'aok-offscreen'})
